@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dv": "nodemon .",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "Fausto Fuertes",
   "license": "ISC",
