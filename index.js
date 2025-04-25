@@ -11,11 +11,6 @@ app.use(cors());
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('API MEAN funcionando correctamente 🔥');
-});
-
-
 app.use('/api/productos' , require('./routes/producto'));
 
 //hacemos que nuestro servidor escuche por el puerto 4000
