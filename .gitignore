@@ -1,0 +1,38 @@
+# Dependencias
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de compilación
+dist/
+build/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Archivos temporales
+temp/
+tmp/
+.cache/
+
+# Archivos generados por editores o sistemas
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Cobertura de pruebas
+coverage/
